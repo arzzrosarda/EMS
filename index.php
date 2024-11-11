@@ -45,7 +45,6 @@ if (!isset($_SESSION['user'])) {
     <link rel="stylesheet" href="assets/css/components.css">
 
     <!-- CSS Libraries -->
-    <link rel="stylesheet" href="assets/modules/summernote/summernote-bs4.css">
     <link rel="stylesheet" href="assets/modules/izitoast/css/iziToast.min.css">
     <!-- Sweet Alert JS -->
     <script src="assets/modules/sweetalert/sweetalert2.all.min.js"></script>
@@ -57,7 +56,6 @@ if (!isset($_SESSION['user'])) {
     <script src="assets/modules/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/modules/nicescroll/jquery.nicescroll.min.js"></script>
     <script src="assets/modules/moment.min.js"></script>
-    <script src="assets/modules/summernote/summernote-bs4.js"></script>
 
     <!-- JS Libraies -->
     <script src="assets/modules/izitoast/js/iziToast.min.js"></script>

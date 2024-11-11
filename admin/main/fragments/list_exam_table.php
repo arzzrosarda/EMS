@@ -186,7 +186,7 @@ $idU = $row['id'];
                 var isActive = "<?php echo $isActive; ?>";
                 if (isActive == '1'){
                     toggle.prop("checked", true);
-                    $("#btnviewDetails<?php echo $exam_id; ?>").addClass("disabled");
+                        $("#btnviewDetails<?php echo $exam_id; ?>").addClass("disabled");
                     $("#checkbox<?php echo $exam_id; ?>").attr({disabled:true, "data-checkboxes":""});
                 }else {
                     toggle.prop("checked", false);

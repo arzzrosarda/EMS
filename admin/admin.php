@@ -85,7 +85,8 @@ if (!isset($_SESSION['user'])) {
                 </ul>
             </form>
             <ul class="navbar-nav navbar-right">
-                <li class="dropdown"><a href="javascript:;" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+                <li class="dropdown">
+                    <a href="javascript:;" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
                         <?php
                         if (isset($_SESSION['user'])) {
                             echo $row['lname'];
@@ -154,6 +155,7 @@ if (!isset($_SESSION['user'])) {
                     <li class="dropdown">
                         <a href="javascript:;" class="nav-link" id="logoutbtn1"><i class="fas fa-power-off"></i> <span>Logout</span></a>
                     </li>
+                </ul>
             </aside>
         </div>
         <!-- Navigation bar End -->
