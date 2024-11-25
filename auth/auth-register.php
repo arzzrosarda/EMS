@@ -116,8 +116,7 @@ if (isset($_SESSION['user'])) {
                                             $department_query = $conn->query("SELECT * FROM department");
                                             while ($department = $department_query->fetch()){?>
                                                 <option value="<?php echo $department['department']; ?>"><?php echo $department['department']; ?></option>
-                                            <?php }
-                                            ?>
+                                            <?php } ?>
                                         </select>
                                         <span style="font-size: 10px;">Note: Choose what Department first to proceed on the division.</span>
                                     </div>
